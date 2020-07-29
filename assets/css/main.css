@@ -221,6 +221,7 @@ input, select, textarea {
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
 		text-transform: none;
+		text-align: left;
 	}
 
 	h2 {
@@ -2940,7 +2941,7 @@ input, select, textarea {
 			margin: 1.25rem 0 0 1.25rem;
 			outline: 0;
 			position: relative;
-			width: calc(50% - 1.25rem);
+
 		}
 
 			.gallery a img {
@@ -2950,7 +2951,7 @@ input, select, textarea {
 				object-fit: cover;
 				object-position: center;
 				width: 100%;
-				border-radius: 50%;
+				
 			}
 
 			.gallery a.landscape {
@@ -2962,7 +2963,7 @@ input, select, textarea {
 				}
 
 			.gallery a.portrait img {
-				height: 30vw;
+				height: 45vw;
 			}
 
 		.gallery .modal {
@@ -3256,14 +3257,14 @@ input, select, textarea {
 			}
 
 				#wrapper section > header h2 {
-					margin: 0 0 5rem 0;
+					margin: 0 0 1rem 0;
 				}
 
 				#wrapper section > header h1 + p {
 					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.8rem;
 					letter-spacing: 0em;
-					line-height: 0.5em;
+					line-height: 1.5em;
 					text-transform: uppercase;
 				}
 
@@ -4060,16 +4061,15 @@ input, select, textarea {
     pointer-events: auto;
 }
 .modalDialog > div {
-    width: 800px;
+    width: 1000px;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
+    background: linear-gradient(to bottom, #49fcd4 0%, #49fcd4 0%, white 25%, white 50%);
 }
+
+
 .close {
     background: #606061;
     color: #FFFFFF;
@@ -4090,4 +4090,17 @@ input, select, textarea {
 }
 .close:hover {
     background: #00d9ff;
+}
+
+.iconDetails {
+	margin-left:2%;
+	float:left; 
+	height:40px;
+	width:40px;	
+} 
+
+.container2 {
+	width:100%;
+	height:auto;
+	padding:1%;
 }
